@@ -1,3 +1,6 @@
-*.html linguist-detectable=true
-*.css linguist-detectable=false
-*.js linguist-detectable=false
+*.html text eol=crlf
+*.css text eol=crlf
+*.json text eol=crlf
+*.js text eol=crlf
+*.txt text eol=crlf
+*.md text eol=crlf
