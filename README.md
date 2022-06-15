@@ -1,5 +1,5 @@
-# Game Store (Front-End).
-A little project about an **e-commerce** website made using **PHP, HTML5 and CSS3.**
+# Game Store (Front-End and Back-End).
+A little project about an **e-commerce** website made using **HTML5, CSS3, JS, JQUERY AJAX and PHP.**
 
 # Summary.
 From my little knowledge acquired in my web development lessons on Udemy, I'm making a couple of front-end and back-end projects and by the way, in this case I want to share publicly the little project about the design of a Game Store where you could find a navigation bar/section, the list of products, and another pages where you could find contact information, a product page preview and more.
