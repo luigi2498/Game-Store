@@ -45,13 +45,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `second_name`, `mail`, `pass`, `role`, `file_n`, `file`, `status`, `deleted`) VALUES
-(1, 'Andrés', 'Aguilar López', 'andres@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 1, 'user1.png', '7823e4bde4697ea430dd2788c3afd53a', 1, 0),
-(2, 'Claudia', 'López Hernández', 'claudia@hotmail.com', 'ab56b4d92b40713acc5af89985d4b786', 1, 'user2.png', 'd00d5149e54757861fa03191da352f1f', 1, 0),
-(3, 'Diego Andrés', 'Martínez Mercado', 'diego@gmail.com', '57c48dcd266eadf089325affe125151f', 2, 'user3.png', 'f64fc35d83858ad30414c0fe2c555051', 1, 0),
-(4, 'Marco Antonio', 'Urzúa Grande', 'marco99@gmail.com', 'ac9ec49afb308497ff99a4e9ab88bd3f', 2, 'user4.png', '6b0022312d41080436c52da571d5c697', 1, 0),
-(5, 'Karla', 'Martínez Abarca', 'karla.marab@hotmail.com', '850361bdf359ecf677676968b0db44ad', 2, 'user5.png', '5a99c620f8f50ca006a3e08feb8ce74f', 1, 0),
-(6, 'José Miguel', 'Alvarado Piceno', 'josé.mike@outlook.com', 'dae1de15107f403c02a21de0f6b7e541', 2, '', '', 1, 0),
-(7, 'Cristian Ismael', 'Roncero Bonilla', 'crisIS@outlook.com', '01cfcd4f6b8770febfb40cb906715822', 2, '', '', 1, 0);
+(1, 'Carlos', 'Aguiar Menchaca', 'andres@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 1, 'user1.png', '7823e4bde4697ea430dd2788c3afd53a', 1, 0);
 
 -- --------------------------------------------------------
 
