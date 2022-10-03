@@ -45,7 +45,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `second_name`, `mail`, `pass`, `role`, `file_n`, `file`, `status`, `deleted`) VALUES
-(1, 'Carlos', 'Aguiar Menchaca', 'andres@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 1, 'user1.png', '7823e4bde4697ea430dd2788c3afd53a', 1, 0);
+(1, 'Carlos', 'Aguiar Menchaca', 'carlos.am@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 1, 'user1.png', '7823e4bde4697ea430dd2788c3afd53a', 1, 0);
 
 -- --------------------------------------------------------
 
