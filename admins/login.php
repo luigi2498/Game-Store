@@ -8,7 +8,7 @@
     $pass = $_REQUEST['pass'];
     $passEncrypted = md5($pass);
 
-    $sql = "SELECT * FROM admins WHERE mail = '$mail' AND pass = '$passEncrypted'
+    $sql = "SELECT * FROM users WHERE mail = '$mail' AND pass = '$passEncrypted'
             AND status = 1 AND deleted = 0";
 
     $res = $con -> query($sql);
@@ -30,7 +30,7 @@
         $time = date("h:i:sa");
 
         $sql = "INSERT INTO audit(user_name, statement, current_table, execution_date, execution_time)
-        VALUES('$admin', 'LOGIN', 'admins', '$date', '$time')";
+        VALUES('$admin', 'LOGIN', 'users', '$date', '$time')";
 
         $res = $con -> query($sql);     // Audit statement.
 

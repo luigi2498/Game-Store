@@ -25,19 +25,6 @@
             document.Form1.method='post';
             document.Form1.action='product_add_order.php';
             document.Form1.submit();
-            // var amount = document.Form1.amount.value;
-            // var stock = document.Form1.stock.value;
-
-            // if (amount <= stock && amount > 0){
-            //     document.Form1.method='post';
-            //     document.Form1.action='product_add_order.php';
-            //     document.Form1.submit();
-            // }
-
-            // else{
-            //     $('#mensaje').html('Error: no puedes comprar esa cantidad...');
-            //     setTimeout("$('#mensaje').html('');", 5000);
-            // }
         }
     </script>
 </head>

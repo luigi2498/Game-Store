@@ -42,7 +42,7 @@
 <body>
     <nav class="navegacion">
         <a class="navegacion__enlace" href="index.php">Inicio</a>
-        <a class="navegacion__enlace" href="admins_list.php">Usuarios</a>
+        <a class="navegacion__enlace" href="users_list.php">Usuarios</a>
         <a class="navegacion__enlace" href="products_list.php">Productos</a>
         <a class="navegacion__enlace navegacion__enlace--activo" href="banners_list.php">Banners</a>
         <a class='navegacion__enlace' href="orders_list.php">Pedidos</a>

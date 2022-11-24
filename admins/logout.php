@@ -1,5 +1,5 @@
 <?php
-    // admins_logout.php
+    // users_logout.php
     require "../functions/connect.php";
     $con = connect();
     
@@ -12,7 +12,7 @@
     $time = date("h:i:sa");
 
     $sql = "INSERT INTO audit(user_name, statement, current_table, execution_date, execution_time)
-    VALUES('$admin', 'LOGOUT', 'admins', '$date', '$time')";
+    VALUES('$admin', 'LOGOUT', 'users', '$date', '$time')";
 
     $res = $con -> query($sql);     // Audit statement.
     

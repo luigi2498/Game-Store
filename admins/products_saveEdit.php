@@ -1,5 +1,5 @@
 <?php
-    // admins_saveEdit.php
+    // products_saveEdit.php
     require "../functions/connect.php";
     $con = connect();
 
